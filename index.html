@@ -1,0 +1,216 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Wine</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="style.css"> <!---->
+    </head>
+    
+<!--Frame------------------------------------------------------------------------------------------------------------>
+    
+    <body>
+        <div id="frame">
+            
+<!--Nav-------------------------------------------------------------------------------------------------------------->
+            
+            <div id="nav">
+                <h2 id="title"><a href="index.html">Wine</a></h2> <!--index.htmd을 다시 불러오는 것이므로 새로고침과 같은 효과-->
+                <ol>
+                    <li><a href="#headline03">어울리는 요리</a></li>
+                    <li><a href="#headline02">제조과정</a></li> <!--id introduce 라는 이름을 가진 곳으로 가라-->
+                    <li><a href="#headline01">와인종류</a></li>
+                </ol>
+            </div>
+            
+<!--Header----------------------------------------------------------------------------------------------------------->
+            
+            <div id="header"></div>
+            
+<!--Content---------------------------------------------------------------------------------------------------------->
+            
+            <div id="content">
+                
+<!--Intro------------------------------------------------------------------------------------------------------------>                
+            <div id="intro">
+                <ul id="list1" class="imglist1">
+                    
+                    <div class="intropadding">
+                        <li><img src="./images/intro_01.png" id="leftspace"></li>
+                        <h3 id="intronum1" class="intronum">01</h3>
+                        <p id="introtext1" class="introtext">와인 종류</p>
+                    </div>
+                    
+                    <div class="intropadding">
+                        <li><img src="./images/intro_02.png"></li>
+                        <h3 id="intronum2" class="intronum">02</h3>
+                        <p id="introtext2" class="introtext">제조 과정</p>
+                    </div>
+                    
+                    <div class="intropadding">
+                        <li><img src="./images/intro_03.png" id="rightspace"></li>
+                        <h3 id="intronum3" class="intronum">03</h3>
+                        <p id="introtext3" class="introtext">어울리는 요리</p>
+                    </div>
+                    
+                </ul>
+            </div>    
+                
+<!--Kind of Wine----------------------------------------------------------------------------------------------------->
+
+            <h2 id="headline01">01<br>와인 종류</h2>
+                
+            <div id="kindofwine">
+                <ul id="list2" class="imglist2">
+                    
+                    <div id="redwine">
+                        <li><img src="./images/redwine_01.png"></li>
+                        <img src="./images/redwine_02.png" class="winebg">
+                        <h3 id="redtitle" class="winetitle">레드 와인</h3>
+                        <p id="redtext" class="winetext">포도열매를 으깨서 제조</p>
+                    </div>
+
+                    <div id="whitewine">
+                        <li><img src="./images/whitewine_01.png"></li>
+                        <img src="./images/whitewine_02.png" class="winebg">
+                        <h3 id="whitetitle" class="winetitle">화이트 와인</h3>
+                        <p id="whitetext" class="winetext">청포도 또는 알맹이의 과즙만 추출해서 제조</p>
+                    </div>
+
+                    <div id="rosewine">
+                        <li><img src="./images/rosewine_01.png"></li>
+                        <img src="./images/rosewine_02.png" class="winebg">
+                        <h3 id="rosetitle" class="winetitle">로제 와인</h3>
+                        <p id="rosetext" class="winetext">레드와 화이트를 섞거나 흑포도와 청포도를 섞어서 제조</p>
+                    </div>
+
+                    <div id="sparklingwine">
+                        <li><img src="./images/sparklingwine_01.png"></li>
+                        <img src="./images/sparklingwine_02.png" class="winebg">
+                        <h3 id="sparklingtitle" class="winetitle">스파클링 와인</h3>
+                        <p id="sparklingtext" class="winetext">발효 시 발생되는 기포를 모아서 제조</p>
+                    </div>
+                    
+                </ul>                
+            </div>    
+            
+<!--Process---------------------------------------------------------------------------------------------------------->
+                
+            <h2 id="headline02">02<br>제조 과정</h2>
+                
+            <div id="process">
+                <ul id="list4" class="imglist4">
+                    
+                    <div id="process01">
+                        <li class="disappearimg"><img src="./images/process0_19.png"></li>
+                        <li><img src="./images/process0_20.png"></li>
+                        <h3 id="processnum01" class="processnum">01. 포도수확 & 분리</h3>
+                        <p id="processtext01" class="processtext, disappeartext">평균기온 10 ~ 20도 정도의 서늘한 기온에서 재배한 포도를 수확한 후 수확한 포도의 줄기와 대를 분리시킵니다.</p>
+                    </div>
+                    
+                    <div id="process02">
+                        <li><img src="./images/process0_23.png"></li>
+                        <li class="disappearimg"><img src="./images/process0_24.png"></li>
+                        <h3 id="processnum02" class="processnum">02. 1차 발효</h3>
+                        <p id="processtext02" class="processtext, disappeartext">화이트 와인은 포도즙에서 껍질과 씨를 분리시켜 발효를 진행하고, 레드 와인은 포도즙과 껍질, 씨등을 함께 발효조에 넣어 발효합니다.</p>
+                    </div>
+                    
+                    <div id="process03">
+                        <li class="disappearimg"><img src="./images/process0_26.png"></li>
+                        <li><img src="./images/process0_27.png"></li>
+                        <h3 id="processnum03" class="processnum">03. 압착</h3>
+                        <p id="processtext03" class="processtext, disappeartext">화이트 와인의 경우 포도 껍질과 씨를 분리시키기 위해 압착한 다음 포도즙만 발효시키고, 레드와인은 껍질, 과육, 씨와 함께 발효한 후 자연스럽게 얻어진 포도즙을 제외하고 압착합니다.</p>
+                    </div>
+                    
+                    <div id="process04">
+                        <li><img src="./images/process0_29.png"></li>
+                        <li class="disappearimg"><img src="./images/process0_30.png"></li>
+                        <h3 id="processnum04" class="processnum">04. 2차 발효</h3>
+                        <p id="processtext04" class="processtext, disappeartext">압착된 포도즙과 자연 유출된 포도즙을 합쳐 오크통이나 스테인라스 스틸통에서 2차 발효를 시킵니다.</p>
+                    </div>
+                    
+                    <div id="process05">
+                        <li class="disappearimg"><img src="./images/process0_32.png"></li>
+                        <li><img src="./images/process0_33.png"></li>
+                        <h3 id="processnum05" class="processnum">05. 블랜딩</h3>
+                        <p id="processtext05" class="processtext, disappeartext">똑같이 숙성이 끝난 와인이라 해도 각 통마다 환경이 조금씩 달랐기 때문에 약간의 맛의 차이가 존재합니다. 이것을 보완하기 위해 블랜딩 마스터에 의해 여러 통들의 와인을 섞습니다. </p>
+                    </div>
+                    
+                    <div id="process06">
+                        <li><img src="./images/process0_36.png"></li>
+                        <li class="disappearimg"><img src="./images/process0_37.png"></li>
+                        <h3 id="processnum06" class="processnum">06. 여과 & 숙성</h3>
+                        <p id="processtext06" class="processtext, disappeartext">앙금 가라앉히기 과정으로 맑게 하고, 잡균과 침전물을 제거하는 안정화 처리과정을 거칩니다. 병에 담고 숙성시키면 와인을 한층 안정시키며 거친 맛을 최소하합니다.</p>
+                    </div>
+                    
+                </ul>
+            </div>
+                
+<!--Suited Food------------------------------------------------------------------------------------------------------>
+                
+            <h2 id="headline03">03<br>어울리는 요리</h2>
+            
+            <div id="suitedfood">
+                <ul id="list3" class="imglist3">
+                
+                <div>
+                    <li><img src="./images/redfood.png" id="redabsolute"></li>
+                    <h2 id="redfoodtitle" class="foodtitle">레드 와인</h2>
+                    <p id="redfoodtext" class="foodtext">쌉싸름한 레드 와인은 향이 강한 이탈리안 요리 또는 씹는 맛이 있는 고기류와 어울리는 편입니다.</p>
+                </div>
+
+                <div>
+                    <img src="./images/whitefood.png">
+                    <h2 id="whitefoodtitle" class="foodtitle">화이트 와인</h2>
+                    <p id="whitefoodtext" class="foodtext">화이트 와인은 맛이 순하고 상큼한 편으로, 가벼운 음식이나 생선요리에 잘 어울립니다.</p>
+                </div>
+                
+                <div>
+                    <img src="./images/rosefood.png" id="roseabsolute">
+                    <h2 id="rosefoodtitle" class="foodtitle">로제 와인</h2>
+                    <p id="rosefoodtext" class="foodtext">단맛과 신맛이 어우러진 로제와인은 메인 메뉴보다 가벼운 에피타이저에 잘 어울립니다.</p>
+                </div>
+                
+                <div>
+                    <img src="./images/sparklingfood.png" id="sparklingabsolute">
+                    <h2 id="sparklingfoodtitle" class="foodtitle">스파클링 와인</h2>
+                    <p id="sparklingfoodtext" class="foodtext">드라이 스파클링은 주로 식전 에피타이저에, 스위트 스파클링은 주로 디저트와 함께 먹습니다.</p>
+                </div>
+                    
+                </ul>
+            </div>
+   
+<!------------------------------------------------------------------------------------------------------------------->                
+            </div> <!--Content-->
+            
+<!--Footer----------------------------------------------------------------------------------------------------------->
+            
+            <div>
+                <img src="./images/footerabove.png" id="footerabove">
+            </div>
+            
+            <div id="footer01">
+                <div id="bottomlogo">
+                    <img src="./images/bottomlogo.png">
+                </div>
+                <div id="infobox">
+                    <p class="info">mail : kayoon0111@naver.com<br>
+                        phone : 010 - 2216 - 6360<br>
+                        add : 서울시 마포구 성산동 월드컵로 26길43 해피존아파트 602호<br></p>
+                </div>
+                <div id="social">
+                    <img src="./images/sociallogo.png"> 
+                </div>
+            </div>
+            
+            <div id="footer02">
+                <p class="reserved">Copyright © 2017. KAYOON LEE ALL RIGHT RESERVED.</p>
+            </div>
+            
+<!------------------------------------------------------------------------------------------------------------------->
+            
+        </div> <!--Content-->
+        
+    </body>
+    
+</html>

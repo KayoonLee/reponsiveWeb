@@ -1,0 +1,992 @@
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #808080;
+    color: #595959;
+    font-family: 'Noto Sans KR', 'Nanum Gothic', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+#frame {
+    background-color: #FFF;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: floralwhite; 
+}
+
+ol {
+    list-style: none;
+}
+
+ul{
+    list-style: none;
+}
+
+#title {
+    float: left;
+    padding: 0.5em 0.75em;
+}
+
+#nav {
+    position: fixed;
+    top: 0;
+    max-width: 1280px;
+    width: 100%;
+    height: 60px;
+    z-index: 999;
+    background-color: #292929;
+/*    border-bottom: 1px solid #A9A9A9;*/
+}
+
+#nav ol li {
+    width: 170px;
+    float: right;
+    text-align: center;
+    padding: 1em;
+}
+
+/*--Intro---------------------------------------------------------------------------*/
+
+#list1 li{
+    position: relative;
+    width: 33.33%;
+    text-align: center;
+/*    border: 0.5px dashed red;*/
+}
+
+.imglist1 li {
+    float: left;
+}
+
+/*--Kind of Wine--------------------------------------------------------------------*/
+
+.imglist2 li{
+    float: left;
+}
+
+#redwine{
+    color: #5a0103;
+}
+
+#whitewine{
+    color: #2d1a05;
+}
+
+#rosewine{
+    color: #800205;
+}
+
+#sparklingwine{
+    color: #ae6900;
+}
+
+/*--Process-------------------------------------------------------------------------*/
+
+#list4 li{
+    position: relative;
+    width: 50%;
+    text-align: center;
+/*    border: 0.5px dashed red;*/
+}
+
+.imglist4 li{
+    float: left;
+}
+
+/*--Suited Food---------------------------------------------------------------------*/
+
+.imglist3 li {
+    float: left;
+}
+
+/*--Footage-------------------------------------------------------------------------*/
+
+.reserved{
+    color: floralwhite;
+    font-weight: 400;
+    text-align: center;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+/* Desktop */
+@media screen and (min-width:481px) {
+    #header{
+        margin-top: 0px;
+        width: 100%;
+        height: 756px;
+        background: url('./images/header.png') no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    
+/*--headline------------------------------------------------------------------------*/
+    
+    #headline01, #headline02, #headline03 {
+        font-size: 2em;
+        font-weight: 600;
+        text-align: center;
+        padding: 2em;
+        color: darkmagenta;
+    }
+
+/*--Intro---------------------------------------------------------------------------*/
+    
+    #intro{
+        max-width: 1920px;
+        min-width: 1080px;
+        height: 272px;
+        margin-top: 8em;
+        margin-bottom: 8em;
+        color: floralwhite;
+/*        border: 1px dashed red;*/
+    }
+    
+    #leftspace{
+        margin-left: 12.5em;
+    }
+    
+    #rightspace{
+        margin-right: 12.5em;
+    }
+    
+    .introtext{
+        position: absolute;
+        margin-right: auto;
+        width: 225px;
+        text-align: center;
+    }
+    
+    .intronum{
+        font-weight: 600;
+        position: absolute;
+        margin-right: auto;
+        width: 225px;
+        text-align: center;
+    }
+    
+    #intronum1{
+        margin-left: 10.6em;
+        margin-top: 9em;
+        float: left;
+/*        border: 1px dashed yellow;*/
+    }
+    
+    #introtext1{
+        margin-left: 12.4em;
+        margin-top: 13em;
+        float: left;
+/*        border: 1px dashed yellow;*/
+    }
+    
+    #intronum2{
+        margin-left: 28em;
+        margin-top: 9em;
+        float: left;
+/*        border: 1px dashed yellow;*/
+    }
+    
+    #introtext2{
+        margin-left: 32.8em;
+        margin-top: 13em;
+        float: left;
+/*        border: 1px dashed yellow;*/
+    }
+    
+    #intronum3{
+        margin-left: 45.5em;
+        margin-top: 9em;
+        float: left;
+/*        border: 1px dashed yellow;*/
+    }
+    
+    #introtext3{
+        margin-left: 53.2em;
+        margin-top: 13em;
+        float: left;
+/*        border: 1px dashed yellow;*/
+    }
+    
+/*--Kind of Wine--------------------------------------------------------------------*/
+    
+    #kindofwine{
+        max-width: 1920px;
+        min-width: 1080px;
+        height: 720px;
+        margin-bottom: 8em;
+/*        border: 1px dashed red;*/
+    }
+    
+    #list2 li{
+        position: relative;
+        width: 25%;
+        text-align: center;
+        /*border: 0.5px dashed red;*/
+    }
+    
+    .winebg{
+        position: absolute;
+        width: 320px;
+        margin-top: 33.9em;
+        margin-left: -20em;
+        text-align: center;
+    }
+
+    .winetitle{
+        position: absolute;
+        margin-right: auto;
+        width: 320px;
+        text-align: center;
+        font-weight: 600;
+    }
+    
+    .winetext{
+        position: absolute;
+        margin-right: auto;
+        width: 320px;
+        text-align: center;
+    }
+    
+    #redtitle{
+        margin-left: -0.001em;
+        margin-top: 31em;
+        float: left;
+/*        border: 1px dashed red;*/
+    }
+    
+    #redtext{
+        max-width: 17em;
+        margin-left: 1.5em;
+        margin-top: 40em;
+        float: left;
+/*        border: 1px dashed red;*/
+    }
+    
+    #whitetitle{
+        margin-left: 17.1em;
+        margin-top: 31em;
+        float: left;
+/*        border: 1px dashed red;*/
+    }
+    
+    #whitetext{
+        max-width: 17em;
+        margin-left: 21.5em;
+        margin-top: 40em;
+        float: left;
+/*        border: 1px dashed red;*/
+    }
+    
+    #rosetitle{
+        margin-left: 34.2em;
+        margin-top: 31em;
+        float: left;
+/*        border: 1px dashed red;*/
+    }
+    
+    #rosetext{
+        max-width: 17em;
+        margin-left: 41.5em;
+        margin-top: 40em;
+        float: left;
+/*        border: 1px dashed red;*/
+    }
+    
+    #sparklingtitle{
+        margin-left: 51.2em;
+        margin-top: 31em;
+        float: left;
+/*        border: 1px dashed red;*/
+    }
+    
+    #sparklingtext{
+        max-width: 17em;
+        margin-left: 61.5em;
+        margin-top: 40em;
+        float: left;
+/*        border: 1px dashed red;*/
+    }
+    
+/*--Process-------------------------------------------------------------------------*/
+    
+    #process{
+        max-width: 1920px;
+        min-width: 1080px;
+        height: 2290px;
+        margin-bottom: 8em;
+/*        border: 1px dashed green;*/
+    }
+    
+    .processnum{
+        position: absolute;
+        margin-right: auto;
+        width: 542px;
+        text-align: left;
+        font-weight: 600;
+        color: darkmagenta;
+    }
+    
+    .processtext{
+        position: absolute;
+        margin-right: auto;
+        width: 542px;
+        text-align: left;
+        color: black;
+    }
+    
+    #process01, #process02, #process03, #process04, #process05, #process06{
+        padding: 40px 6.19em;
+        
+    }
+    
+    #processnum01{
+        max-width: 10em;
+        margin-left: 3.5em;
+        margin-top: 5em;
+        float: left;
+/*        border: 1px dashed red;*/
+    }
+    
+    #processtext01{
+        position: absolute;
+        max-width: 20em;
+        margin-left: 4em;
+        margin-top: 10em;
+        float: left;
+        color: black;
+/*        border: 1px dashed red;*/
+    }
+    
+    #processnum02 {
+        max-width: 10em;
+        margin-left: 43.7em;
+        margin-top: 4.5em;
+        float: left;
+        text-align: right;
+/*        border: 1px dashed red;*/
+    }
+    
+    #processtext02 {
+        position: absolute;
+        max-width: 20em;
+        margin-left: 43em;
+        margin-top: 9.5em;
+        float: left;
+        color: black;
+/*        border: 1px dashed red;*/
+    }
+    
+    #processnum03 {
+        max-width: 10em;
+        margin-left: 3.5em;
+        margin-top: 4em;
+        float: left;
+/*        border: 1px dashed red;*/
+    }
+    
+    #processtext03 {
+        position: absolute;
+        max-width: 20em;
+        margin-left: 4em;
+        margin-top: 8.5em;
+        float: left;
+        color: black;
+/*        border: 1px dashed red;*/
+    }
+    
+    #processnum04 {
+        max-width: 10em;
+        margin-left: 43.7em;
+        margin-top: 5em;
+        float: left;
+        text-align: right;
+/*        border: 1px dashed red;*/
+    }
+    
+    #processtext04 {
+        position: absolute;
+        max-width: 20em;
+        margin-left: 43em;
+        margin-top: 10em;
+        float: left;
+        color: black;
+/*        border: 1px dashed red;*/
+    }
+    
+    #processnum05 {
+        max-width: 10em;
+        margin-left: 3.5em;
+        margin-top: 4em;
+        float: left;
+/*        border: 1px dashed red;*/
+    }
+    
+    #processtext05 {
+        position: absolute;
+        max-width: 20em;
+        margin-left: 4em;
+        margin-top: 8.5em;
+        float: left;
+        color: black;
+/*        border: 1px dashed red;*/
+    }
+    
+    #processnum06 {
+        max-width: 10em;
+        margin-left: 43.7em;
+        margin-top: 5em;
+        float: left;
+        text-align: right;
+/*        border: 1px dashed red;*/
+    }
+    
+    #processtext06 {
+        position: absolute;
+        max-width: 20em;
+        margin-left: 43em;
+        margin-top: 10em;
+        float: left;
+        color: black;
+/*        border: 1px dashed red;*/
+    }
+    
+    #process01, #process02, #process03, #process04, #process05, #process06 {
+        position: relative;
+        height: 300px;
+        border: 1px dashed #FFF; /* don't erase it...*/
+    }
+    
+/*--Suited Food---------------------------------------------------------------------*/
+
+    #suitedfood{
+        max-width: 1920px;
+        min-width: 1080px;
+        height: 727px;
+        margin-bottom: 27em;
+        color: floralwhite;
+        /*border: 1px dashed red;*/
+    }
+    
+    #list3 li{
+        position: relative;
+        width: 50%;
+        text-align: center;
+        /*border: 0.5px dashed red;*/
+    }
+    
+    .foodtitle{
+        position: absolute;
+        margin-right: auto;
+        width: 640px;
+        text-align: left;
+        font-weight: 600;
+    }
+    
+    .foodtext{
+        position: absolute;
+        margin-right: auto;
+        width: 640px;
+        text-align: left;
+    }
+    
+    #redfoodtitle{
+        max-width: 5em;
+        margin-left: 2.6em;
+        margin-top: 3.5em;
+        float: left;
+/*        border: 1px dashed blue;*/
+    }
+    
+    #redfoodtext{
+        max-width: 15.5em;
+        margin-left: 4em;
+        margin-top: 9.3em;
+        float: left;
+/*        border: 1px dashed blue;*/
+    }
+    
+    #roseabsolute{
+        margin-top: -0.1em;
+        margin-left: -40em;
+    }
+    
+    #sparklingabsolute{
+        margin-top: -22.65em;
+        margin-left: 40em;
+    }
+    
+    #whitefoodtitle{
+        max-width: 6em;
+        margin-left: 45em;
+        margin-top: -11.6em;
+        float: left;
+/*        border: 1px dashed blue;*/
+    }
+    
+    #whitefoodtext{
+        max-width: 15.5em;
+        margin-left: 60.2em;
+        margin-top: -13.3em;
+        float: left;
+/*        border: 1px dashed blue;*/
+    }
+    
+    #rosefoodtitle{
+        max-width: 5em;
+        margin-left: 14em;
+        margin-top: -11.5em;
+        float: left;
+/*        border: 1px dashed blue;*/
+    }
+    
+    #rosefoodtext{
+        max-width: 15.5em;
+        margin-left: 21em;
+        margin-top: -13em;
+        float: left;
+/*        border: 1px dashed blue;*/
+    }
+    
+    #sparklingfoodtitle{
+        max-width: 7em;
+        margin-left: 29.5em;
+        margin-top: -11.5em;
+        float: left;
+/*        border: 1px dashed blue;*/
+    }
+    
+    #sparklingfoodtext{
+        max-width: 15.5em;
+        margin-left: 44.2em;
+        margin-top: -13em;
+        float: left;
+/*        border: 1px dashed blue;*/
+    }
+    
+/*----------------------------------------------------------------------------------*/
+    
+    #footerabove{
+        margin-top: 4em;
+        margin-bottom: -0.1em;
+    }
+    
+    #footer01 {
+        width: 100%;
+        height: 245px;
+        background-color: #232325;
+        overflow: hidden;
+    }
+    
+    #bottomlogo {
+        float: left;
+        margin: 2.5em 0 0 7em;
+/*        border: 1px dashed red;*/
+    }
+    
+    #social{
+        float: right;
+        margin: 6em 7em 0 0;
+/*        border: 1px dashed red;*/
+    }
+    
+    #infobox{
+        float: left;
+        margin: 4.5em 0 0 7em;
+/*        border: 1px solid yellow;*/
+    }
+    
+    .info{
+        color: floralwhite;
+        text-align: left;
+        letter-spacing: 0.02em;
+        word-spacing: 0.02em;
+        line-height: 2em;
+    }
+    
+
+    #footer02 {
+        width: 100%;
+        height: 45px;
+        background-color: #5b2c44;
+        overflow: hidden;
+    }
+    
+    .reserved{
+        margin-top: 0.7em;
+    }
+    
+}
+
+/*----------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+/* Mobile */
+@media screen and (max-width:480px){
+    h2, h3{
+        font-size: 0.8em;
+    }
+
+    p{
+        font-size: 0.8em;
+    }
+    
+    #nav{
+        width: 100%;
+        height: 35px;
+    }
+    
+    #nav ol li {
+        width: 90px;
+        padding: 0.5em;
+        margin-top: 0.2em;
+        font-size: 0.8em;
+    }
+    
+    #title {
+        font-size: 1.2em;
+        padding: 0.5em;
+        padding-top: 0.1em;
+    }
+    
+    #header {
+        margin-top: 10px; 
+        width: 100%;
+        height: 270px;
+        background: url('./images/header.png') no-repeat;
+        background-position: center center; /*아마 가로세로, 위아래 가 센터*/
+        background-size: cover; /*사이즈 알아서 맞게 들어감.*/
+    }
+    
+/*--headline------------------------------------------------------------------------*/
+    
+    #headline01, #headline02, #headline03 {
+        font-size: 1.2em;
+        font-weight: 600;
+        text-align: center;
+        padding: 1.5em;
+        color: darkmagenta;
+    }
+    
+/*--Intro---------------------------------------------------------------------------*/ 
+    
+    #intro{
+        margin-top: 1.5em;
+        margin-bottom: 8em;
+        height: 158px;
+        color: floralwhite;
+/*        border: 1px dashed red;*/
+    }
+    
+    .intropadding{
+        padding: 0 2em;
+    }
+    
+    #leftspace{
+        margin-left: -2em;
+    }
+    
+    #rightspace{
+        margin-right: -2em;
+    }
+    
+    .introtext{
+        position: absolute;
+        margin-right: auto;
+        width: 125px;
+        text-align: center;
+    }
+    
+    .intronum{
+        display: none;
+    }
+    
+    #introtext1{
+        margin-left: -1.1em;
+        margin-top: 8em;
+        float: left;
+/*        border: 1px dashed red;*/
+    }
+    
+    #intronum1{
+        display: none;
+    }
+    
+    #introtext2{
+        margin-left: 9.8em;
+        margin-top: 8em;
+        float: left;
+/*        border: 1px dashed red;*/
+    }
+    
+    #intronum2{
+        display: none;
+    }
+    
+    #introtext3{
+        margin-left: 20.8em;
+        margin-top: 8em;
+        float: left;
+/*        border: 1px dashed red;*/
+    }
+    
+    #intronum3{
+        display: none;
+    }
+    
+/*--Kind of Wine--------------------------------------------------------------------*/
+    
+    #kindofwine{
+        margin-top: -1em;
+        height: 744px;
+        margin-bottom: 8.5em;
+/*        border: 1px dashed red;*/
+    }
+    
+    #list2 li{
+        position: relative;
+        width: 50%;
+        text-align: center;
+/*        border: 0.5px dashed red;*/
+    }
+    
+    .winebg{
+        display: none;
+    }
+        
+    .winetext {
+        display: none;
+    }
+
+    .winetitle{
+        position: absolute;
+        margin-right: auto;
+        width: 50%;
+        text-align: center;
+    }
+    
+    #redtitle{
+        margin-left: -0.01em;
+        margin-top: 26.5em;
+        float: left;
+/*        border: 1px dashed blue;*/
+    }
+    
+    #whitetitle{
+        margin-left: 17em;
+        margin-top: 26.5em;
+        float: left;
+/*        border: 1px dashed blue;*/
+    }
+    
+    #rosetitle{
+        margin-left: -0.01em;
+        margin-top: 55.8em;
+        float: left;
+/*        border: 1px dashed blue;*/
+    }
+    
+    #sparklingtitle{
+        margin-left: 17em;
+        margin-top: 55.8em;
+        float: left;
+/*        border: 1px dashed blue;*/
+    }
+    
+/*--Process---------------------------------------------------------------------*/
+    
+    #process{
+        margin-top: -15.5em;
+        margin-bottom: 3em;
+        height: 1995px;
+/*        border: 1px dashed red;*/
+    }
+    
+    #list4 li{
+        position: relative;
+        width: 100%;
+        text-align: center;
+/*        border: 0.5px dashed red;*/
+    }
+    
+    .disappearimg {
+        display: none;
+    }
+    
+    .disappeartext{
+        display: none;
+    }
+    
+
+    #processnum01, #processnum02, #processnum03, #processnum04, #processnum05, #processnum06{
+        max-width: 10em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20em;
+        text-align: center;
+        color: black;
+/*        border: 1px dashed red;*/
+    }
+    
+    #process01, #process02, #process03, #process04, #process05, #process06 {
+        position: relative;
+        height: 60px;
+/*        border: 1px dashed blue;*/
+    }
+    
+/*--Suited Food---------------------------------------------------------------------*/
+    
+    #suitedfood{
+        margin-top: 1em;
+        color: floralwhite;
+    }
+    
+    #list3 li{
+        position: relative;
+        width: 100%;
+        text-align: center;
+/*        border: 0.5px dashed red;*/
+    }
+    
+    .foodtitle{
+        position: absolute;
+        margin-right: auto;
+        width: 100%;
+        text-align: left;
+        font-weight: 600;
+    }
+    
+    .foodtext{
+        position: absolute;
+        margin-right: auto;
+        width: 100%;
+        text-align: left;
+    }
+    
+    #redabsolute{
+        margin-bottom: -0.3em;
+    }
+    
+    #redfoodtitle{
+        max-width: 5em;
+        margin-left: 2em;
+        margin-top: 5.5em;
+        float: left;
+/*        border: 1px dashed blue;*/
+    }
+    
+    #redfoodtext{
+        max-width: 15.5em;
+        margin-left: 2em;
+        margin-top: 8.5em;
+        float: left;
+/*        border: 1px dashed blue;*/
+    }
+    
+    #whitefoodtitle{
+        max-width: 6em;
+        margin-left: 16.5em;
+        margin-top: -13.6em;
+        float: left;
+/*        border: 1px dashed blue;*/
+    }
+    
+    #whitefoodtext{
+        max-width: 15.5em;
+        margin-left: 16.5em;
+        margin-top: -10.7em;
+        float: left;
+/*        border: 1px dashed blue;*/
+    }
+    
+    #rosefoodtitle{
+        max-width: 5em;
+        margin-left: 20em;
+        margin-top: -13.8em;
+        float: left;
+/*        border: 1px dashed blue;*/
+    }
+    
+    #rosefoodtext{
+        max-width: 12em;
+        margin-left: 20em;
+        margin-top: -11em;
+        float: left;
+/*        border: 1px dashed blue;*/
+    }
+    
+    #sparklingfoodtitle{
+        max-width: 7em;
+        margin-left: 2em;
+        margin-top: -13em;
+        float: left;
+/*        border: 1px dashed blue;*/
+    }
+    
+    #sparklingfoodtext{
+        max-width: 15.5em;
+        margin-left: 2em;
+        margin-top: -10em;
+        float: left;
+/*        border: 1px dashed blue;*/
+    }
+    
+/*----------------------------------------------------------------------------------*/    
+    
+    #footerabove{
+        width: 75%;
+        margin-top: 6em;
+    }
+    
+    #footer01 {
+        width: 100%;
+        height: 180px;
+        background-color: #232325;
+        overflow: hidden;
+    }
+    
+    #bottomlogo {
+        width: 25%;
+        margin: 0.8em auto;
+    }
+    
+    #social{
+        width: 25%;
+        margin: 0.8em auto;
+    }
+    
+    .info {
+        display: none;
+    }
+    
+    #footer02 {
+        width: 100%;
+        height: 30px;
+        background-color: #5b2c44;
+        overflow: hidden;
+    }
+    
+    .reserved{
+        margin-top: 0.5em;
+    }
+    
+}
+
+
+
